@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="library-1.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/cn.pedant.sweetalert/library/1.2/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/cn.pedant.sweetalert/library/1.2/cd658a904214ef3464bab29ab481a17c1821be92/library-1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
