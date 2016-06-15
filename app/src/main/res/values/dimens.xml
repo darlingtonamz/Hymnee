@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="medium_text">25sp</dimen>
+	<dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="layer_padding">10dp</dimen>
+	<dimen name="small_thumb">40dp</dimen>
+	<dimen name="medium_thumb">60dp</dimen>
+	<dimen name="large_thumb">80dp</dimen>
+	<dimen name="xlarge_thumb">120dp</dimen>
+	<dimen name="xxlarge_thumb">160dp</dimen>
+</resources>

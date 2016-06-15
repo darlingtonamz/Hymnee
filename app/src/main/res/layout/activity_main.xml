@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amanzed.hymnee.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <ImageView
+            android:id="@+id/splashscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="9"
+            android:src="@mipmap/ic_launcher"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/img_gen_folder"
+                    style="@style/trans_imgbut_xxl"
+                    android:src="@drawable/blank" />
+                <ImageButton
+                    android:id="@+id/img_gen_logo"
+                    style="@style/trans_imgbut_xxl"
+                    android:src="@drawable/book" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_gen_folder"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="General"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/img_rccg_folder"
+                    style="@style/trans_imgbut_xxl"
+                    android:layout_marginLeft="@dimen/medium_thumb"
+                    android:src="@drawable/rccg" />
+                <ImageButton
+                    android:id="@+id/img_rccg_logo"
+                    style="@style/trans_imgbut_xxl"
+                    android:src="@drawable/book" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_rccg_folder"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:text="RCCG"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hymnee by Amanzed"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

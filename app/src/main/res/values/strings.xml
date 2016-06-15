@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">Hymnee</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_all">All</string>
+    <string name="menu_cheap">Cheap</string>
+    <string name="menu_sort">Sort</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_mytours">Favorites</string>
+    <string name="btn_createfile">Create file</string>
+    <string name="btn_readfile">Read file</string>
+    <string name="menu_add">Add to Favorite</string>
+    <string name="menu_delete">Remove from Favorite</string>
+    <string name="refresh">Refresh</string>
+    <string name="ad_unit_id">ca-app-pub-3278432359269863/1033850246</string> 
+   <string name="server_root">http://www.thelifted.org/</string>
+   <string name="facebook_app_id">1622447578036575</string>
+    <string name="action_settings">Setting</string>
+
+
+</resources>
